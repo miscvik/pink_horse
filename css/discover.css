@@ -1,0 +1,43 @@
+.discover {
+    background-color: var(--primery-pink);
+    padding: 196px 0 164px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.discover__container {
+    display: flex;
+    justify-content: center;
+}
+.discover__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    max-width: 747px;
+}
+.dicover__title {
+    font-size: 80px;
+    line-height: 96px;
+    font-family: "Motter Corpus Std";
+    text-align: center;
+
+}
+.discover__desk {
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 32px; /* 133.333% */
+}
+.discover__desk span {
+    font-weight: 700;
+}
+
+.hors {
+    position: absolute;
+    bottom: -200px;
+}

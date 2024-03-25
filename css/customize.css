@@ -1,0 +1,52 @@
+.customize {
+    padding: 96px 0px;
+}
+.customize__container {
+   
+}
+.customize__section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 48px 0px;
+}
+.customize__section:last-child {
+    margin: 0;
+}
+.customize__content {
+}
+.customize__text {
+    color: var(--primery-green);
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 32px; 
+    max-width: 464px;
+    
+}
+.customize__text p {
+    margin: 32px 0 0 0;
+}
+.customize__title {
+    
+}
+.pink {
+    color: var(--primery-pink);
+    font-family: "Nunito Sans";
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+}
+.customize__scroll {
+    margin: 50px 0 0 0;
+    
+    
+}
+.customize__scroll span {
+    margin: 0 0 0 16px;
+}
+.green {
+    color: var(--primery-green);
+    font-family: "Nunito Sans";
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+}

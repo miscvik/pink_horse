@@ -1,0 +1,78 @@
+.footer {
+    background-color: var(--primery-green);
+    color: var(--primery-pink);
+}
+.footer__container {
+}
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__body {
+    text-align: center;
+}
+.footer__title {
+    font-family: "Motter Corpus Std";
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    margin: 236px 0px 0px 0px;
+}
+.footer__but {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer__button {
+    
+}
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 300px;
+    border: 2px solid var(--primery-pink);
+    padding: 21px 40px;
+    margin: 50px 0px 85px 0px;
+    transition: 0.5s all linear;
+}
+.footer__text {
+    max-width: 150px;
+    text-align: start;
+}
+.footer__podpis {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer__podt {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.footer__podt span {
+    color: var(--primery-pink);
+    font-family: "Motter Corpus Std";
+    font-size: 20px;
+    
+}
+
+.fb {
+    display: flex;
+    text-decoration: none;
+    color: var(--primery-pink);
+    gap: 12px;
+    transition: 0.2s all linear;
+}
+.footer__logo:hover {
+    background-color: #051f1f;
+    box-shadow: 0 0 18px rgba(255, 204, 188, 0.8);
+}

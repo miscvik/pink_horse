@@ -1,0 +1,65 @@
+.each {
+    margin: 96.35px 0 0 0;
+}
+.each__container {
+}
+.each__content {
+    display: flex;
+    justify-content: space-around;
+    
+    background: url(../img/each/confettiss.png) no-repeat;
+}
+.each__image {
+    position: relative;
+}
+.each__image img {
+    display: flex;
+    position: absolute;
+}
+.each__image img:nth-child(1) {
+    left: -110px;
+}
+.each__image img:nth-child(2) {
+    top: 120%;
+    left: -100px;
+}
+.each__image img:nth-child(3) {
+    top: 80%;
+    left: 170px;
+}
+
+
+
+
+.each__body {
+    max-width: 596px;
+}
+.each__title {
+    color: var(--primery-green);
+    font-family: "Nunito Sans";
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+    margin: 0px 0px 32px 0px;
+}
+.each__dis {
+    color: var(--primery-green);
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px 0px 47px 0px;
+}
+.each__bot {
+    border-radius: 100px;
+    border: 2px solid var(--Primary, #0B4141);
+    padding: 12px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #0B4141;
+    transition: 0.5s all linear;
+}
+.each__bot:hover {
+    background-color: #082b2b;
+    color: #1d9c9c;
+}

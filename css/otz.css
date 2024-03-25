@@ -1,0 +1,65 @@
+.otzv {
+   
+
+}
+.otzv__container {
+}
+.otzv__content {
+    background: linear-gradient(to bottom,  rgba(255,217,206,1) 0%,rgba(255,237,237,1) 90%,rgba(255,237,237,1) 94%,rgba(255,237,237,1) 94%,rgba(255,237,237,1) 100%,rgba(255,237,237,1) 100%,rgba(255,237,237,1) 100%);
+    padding: 64px 0;
+    position: relative;
+}
+.otzv__title {
+    color: #fff;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+    
+}
+.otzv__column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.otzv__columns {
+    max-width: 304px;
+    padding: 64px 0 0 0;
+}
+.otzv-col {
+    padding: 20px;
+    margin-bottom: 24px;
+    background-color: rgba(255, 255, 255, 0.80);
+    gap: 24px;
+    border-radius: 8px;
+}
+
+.col__text {
+    color: var(--primery-green);
+    font-family: "Nunito Sans";
+    font-size: 13px;
+}
+.col__prof {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.col__avtor {
+    margin-left: 12px;
+}
+.avtor {
+    color: var(--primery-green);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.conrtact {
+}
+
+.fon {
+    position: absolute;
+    bottom: 0;
+}
